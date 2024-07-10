@@ -1,3 +1,4 @@
+import { Input } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent  implements OnInit {
+
+  @Input() title: string;
+  @Input() backButton: string;
+  @Input() isModal: boolean;
+  @Input() color: string;
+  @Input() centerTitle: boolean;
 
   constructor() { }
 
