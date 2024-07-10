@@ -1,0 +1,7 @@
+{
+  "name": "tareaPE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
