@@ -14,8 +14,14 @@ export class HeaderComponent  implements OnInit {
   @Input() color: string;
   @Input() centerTitle: boolean;
 
+  darkMode;
+
   constructor() { }
 
   ngOnInit() {}
+
+  setTheme(darkMode: boolean){
+    this.darkMode = darkMode;
+  }
 
 }
